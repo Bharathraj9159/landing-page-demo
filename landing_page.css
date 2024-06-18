@@ -1,0 +1,102 @@
+*{
+  margin 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section{
+   
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url("https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    color: #fff;
+   
+}
+.container{
+    width: 85%;
+    margin: auto;
+
+}
+nav{
+    height: 80px;
+    
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 30px;
+    font-size: inline;
+    color: #1d92f186;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li A{
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+nav ul li a:hover{
+    background-color: #f11313fb;
+    transition: 0.5s ease;
+
+}
+nav ul li a.default{
+    
+    background-color: #f11313fb;
+}
+
+.article{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        transform: translateY(25vh);
+}
+
+.article h1{
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+.article p{
+    font-size: 18px;
+    color: #7e7e7e;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    text-align:justify;
+
+}
+.article .btn{
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f15048;
+}
+
+.article .btn:hover{
+
+    background-color: #4b9ed4;
+    transition: 0.5s ease;
+
+
+}
+#a{
+    text-align: center;
+}
